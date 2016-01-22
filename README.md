@@ -1,5 +1,9 @@
 # Pencilblue custom install
 
+A full featured Node.js CMS and blogging platform (plugins, server cluster management, data-driven pages)
+
+More info on Pencilblue at https://pencilblue.org/ and https://github.com/pencilblue/pencilblue
+
 ssh to your vm and cd to /var/www
 
 git clone git@github.com:alioso/probob.git probob
@@ -85,4 +89,4 @@ Then restart the server with ```nodemon```
 
 If you need to restart the server for file changes, type ```rs``` while nodemon is running
 
-If you need to force stop the server, a simple ctrl z will do that, knowing that you will have to kill the nodeJS process before restarting with nodemon with ```killall -9 node``` 
+If you need to force stop the server, a simple ctrl z will do that, knowing that you will have to kill the nodeJS process before restarting with nodemon with ```killall -9 node```

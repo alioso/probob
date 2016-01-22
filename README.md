@@ -76,4 +76,13 @@ Out of the vm
   ```sudo vim /etc/hosts```
 
 ## Optionally install the the project db
-  
+
+  ```mongorestore dump --host=127.0.0.1```
+
+Then restart the server with ```nodemon```
+
+## Troubleshooting
+
+If you need to restart the server for file changes, type ```rs``` while nodemon is running
+
+If you need to force stop the server, a simple ctrl z will do that, knowing that you will have to kill the nodeJS process before restarting with nodemon with ```killall -9 node``` 

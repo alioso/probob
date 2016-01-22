@@ -1,0 +1,1 @@
+{ "options" : { "flags" : 1 }, "indexes" : [ { "v" : 1, "key" : { "_id" : 1 }, "ns" : "pencilblue.session", "name" : "_id_" }, { "v" : 1, "key" : { "timeout" : 1 }, "ns" : "pencilblue.session", "name" : "timeout_1", "expireAfterSeconds" : 2000 } ] }

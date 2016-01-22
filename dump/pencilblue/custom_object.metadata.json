@@ -1,0 +1,1 @@
+{ "indexes" : [ { "v" : 1, "key" : { "_id" : 1 }, "ns" : "pencilblue.custom_object", "name" : "_id_" }, { "v" : 1, "key" : { "name" : 1, "type" : 1 }, "unique" : true, "ns" : "pencilblue.custom_object", "name" : "name_1_type_1" }, { "v" : 1, "key" : { "created" : 1 }, "ns" : "pencilblue.custom_object", "name" : "created_1" } ] }

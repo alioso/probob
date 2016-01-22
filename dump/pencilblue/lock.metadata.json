@@ -1,0 +1,1 @@
+{ "options" : { "flags" : 1 }, "indexes" : [ { "v" : 1, "key" : { "_id" : 1 }, "ns" : "pencilblue.lock", "name" : "_id_" }, { "v" : 1, "key" : { "name" : 1 }, "unique" : true, "ns" : "pencilblue.lock", "name" : "name_1" }, { "v" : 1, "key" : { "timeout" : 1 }, "ns" : "pencilblue.lock", "name" : "timeout_1", "expireAfterSeconds" : 0 } ] }

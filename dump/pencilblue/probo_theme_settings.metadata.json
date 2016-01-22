@@ -1,0 +1,1 @@
+{ "indexes" : [ { "v" : 1, "key" : { "_id" : 1 }, "ns" : "pencilblue.probo_theme_settings", "name" : "_id_" } ] }

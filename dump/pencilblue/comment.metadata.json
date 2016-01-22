@@ -1,0 +1,1 @@
+{ "indexes" : [ { "v" : 1, "key" : { "_id" : 1 }, "ns" : "pencilblue.comment", "name" : "_id_" }, { "v" : 1, "key" : { "commenter" : 1 }, "ns" : "pencilblue.comment", "name" : "commenter_1" }, { "v" : 1, "key" : { "article" : 1 }, "ns" : "pencilblue.comment", "name" : "article_1" } ] }

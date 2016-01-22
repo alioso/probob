@@ -1,0 +1,1 @@
+{ "indexes" : [ { "v" : 1, "key" : { "_id" : 1 }, "ns" : "pencilblue.plugin_settings", "name" : "_id_" }, { "v" : 1, "key" : { "plugin_id" : 1 }, "unique" : true, "ns" : "pencilblue.plugin_settings", "name" : "plugin_id_1" }, { "v" : 1, "key" : { "plugin_uid" : 1 }, "unique" : true, "ns" : "pencilblue.plugin_settings", "name" : "plugin_uid_1" } ] }

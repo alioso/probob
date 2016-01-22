@@ -4,8 +4,11 @@ A full featured Node.js CMS and blogging platform (plugins, server cluster manag
 
 More info on Pencilblue at https://pencilblue.org/ and https://github.com/pencilblue/pencilblue
 
-ssh to your vm and cd to /var/www
 
+
+## Get the repo
+
+ssh to your vm and cd to /var/www
 git clone git@github.com:alioso/probob.git probob
 cd probob
 

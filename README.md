@@ -7,44 +7,73 @@ cd probob
 
 ## Install brew
 
-  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/linuxbrew/go/install)"
+  ```ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/linuxbrew/go/install)"```
 
 then
 
-  brew doctor to see if all works
+  ```brew doctor to see if all works```
 
 If you get a command not for brew:
-  vim ~/.profile
+  ```vim ~/.profile```
 add in there
-  export PATH="$HOME/.linuxbrew/bin:$PATH"
+  ```export PATH="$HOME/.linuxbrew/bin:$PATH"
   export MANPATH="$HOME/.linuxbrew/share/man:$MANPATH"
-  export INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
+  export INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"```
 
 run
-  source ~/.profile
+  ```source ~/.profile```
 
 then
-  brew doctor
+  ```brew doctor```
 
 Should be good to go. ja?
 
 ## Install nodeJS
 
-  brew install node
+  ```brew install node```
 
 This will take a while. we can talk about something else while this is happening. I suggest plates tectonics.
 Let's see if that worked:
 
-  node -v
+  ```node -v```
 
 ## Install mongodb
 
-  npm install mongodb
+Ubuntu 12.04
+
+  ```echo "deb http://repo.mongodb.org/apt/ubuntu precise/mongodb-org/3.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.2.list```
+
+Ubuntu 14.04
+
+  ```echo "deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.2.list```
+
+Reload local package database
+  ```sudo apt-get update```
+
+Install the MongoDB packages
+  ```sudo apt-get install -y mongodb-org```
+
+Install the command line
+  ```npm install mongodb```
 
 ## Install command line for pencilblue
 
-  npm install -g pencilblue-cli
+  ```npm install -g pencilblue-cli```
 
 ## Get all dependencies
 
-  npm install 
+  ```npm install```
+
+You might need to install nodemon globally
+
+  ``` npm install -g nodemon```
+
+We are done here. From here we can just type ```nodemon``` to get our server started and connect to http://probob.local:2000/
+
+Of course we assume you added probob to your hosts file (local, not VM)
+
+Out of the vm
+  ```sudo vim /etc/hosts```
+
+## Optionally install the the project db
+  

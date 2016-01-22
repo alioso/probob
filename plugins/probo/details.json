@@ -1,0 +1,46 @@
+{
+    "uid": "probo",
+    "name": "Probo Theme",
+    "description": "A theme for Probo",
+    "version": "0.2.0",
+    "pb_version": "0.4.x",
+    "author": {
+        "name": "Alban Bailly",
+        "email": "alban@zivtech.com",
+        "website": "http://zivtech.com",
+        "contributors": []
+    },
+    "settings": [
+        {
+            "name": "show_side_navigation",
+            "value": true
+        },
+        {
+            "name": "home_page_keywords",
+            "value": "Probo,theme,plugin"
+        },
+        {
+            "name": "home_page_description",
+            "value": "This is the home page (landing) of the theme."
+        }
+    ],
+    "permissions": {
+        "ACCESS_USER": [],
+        "ACCESS_WRITER": [],
+        "ACCESS_EDITOR": [],
+        "ACCESS_MANAGING_EDITOR": []
+    },
+    "main_module": {
+        "path": "probo.js"
+    },
+    "theme": {
+        "settings": [],
+        "content_templates":
+        [
+            {
+                "file": "index",
+                "name": "Blog"
+            }
+        ]
+    }
+}

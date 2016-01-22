@@ -1,12 +1,12 @@
-.jshintrc
-.project
-.idea
-public/media/
-public/docs/
-public/bower_components/
+-- .jshintrc
+-- .project
+-- .idea
+-- public/media/
+-- public/docs/
+-- public/bower_components/
 log/
 out
-plugins/*
+-- plugins/*
 !plugins/pencilblue
 !plugins/pencilblue/**
 !plugins/ga
@@ -19,7 +19,7 @@ plugins/*
 !plugins/wp_import/**
 **/node_modules
 **/node_modules/**
-config.js
-config.json
+-- config.js
+-- config.json
 **/.DS_Store
-**/dump.rdb
+-- **/dump.rdb
